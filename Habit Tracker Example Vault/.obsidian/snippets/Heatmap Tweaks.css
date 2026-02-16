@@ -1,0 +1,127 @@
+.dashboard {
+    h3 {
+        color: var(--color-base-80);
+        margin-top: 0.5em !important;
+        margin-bottom: 0 !important;
+    }
+    .markdown-preview-view,
+    .columnParent {
+        padding-left: 0 !important;
+    }
+}
+
+.wide {
+    --file-line-width: 100%;
+}
+
+.hide-properties {
+    .metadata-container {
+        display: none !important;
+    }
+}
+
+.minimal-bases {
+    .bases-header,
+    .markdown-embed-link,
+    .embed-title {
+        display: none;
+    }
+}
+
+.big-buttons {
+    .mb-button {
+        height: calc(var(--input-height) * 1.2);
+    }
+    .mb-button-inner {
+        font-size: var(--h1-size);
+        padding: 20px 12px;
+    }
+    .mb-icon-wrapper {
+        height: 24px;
+        width: 24px;
+        svg {
+            height: 24px;
+            width: 24px;
+        }
+    }
+}
+
+.launch-page {
+    text-align: center;
+    .markdown-preview-sizer {
+        padding-top: 30vh;
+        padding-bottom: 0;
+    }
+    .el-pre {
+        margin: 24px;
+    }
+}
+
+@layer utilities {
+    .lovely-bases .rounded-\[4px\] {
+        border-radius: 0.1rem !important;
+    }
+    .lovely-bases .rounded-\[4px\]:not(.cursor-pointer) {
+        background: var(--color-base-25) !important;
+    }
+    .lovely-bases {
+        --spacing: 0.19vw !important;
+    }
+    .lovely-bases .items-center {
+        padding: 0 !important;
+    }
+    .bases-linear-calendar-view-container .lovely-bases .cursor-pointer span {
+        /* padding: 2px !important; */
+        color: var(--color-base-75);
+        border: none !important;
+        padding: 0 !important;
+        margin: 0;
+
+        font-size: 13px !important;
+        line-height: 16px !important;
+        font-weight: bold;
+        filter: none !important;
+        margin-left: 4px !important;
+        /* margin-top: -1px; */
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+        /* padding-bottom: 1px !important; */
+        border-radius: 0.2rem !important;
+        background-color: color-mix(
+            in srgb,
+            var(--color-base-25) 80%,
+            transparent
+        ) !important;
+        position: absolute;
+        /* left: 200px !important; */
+    }
+}
+
+@layer theme {
+    .lovely-bases .gap-1 {
+        column-gap: 3px !important;
+        row-gap: 3px !important;
+    }
+    .lovely-bases .mb-2 {
+        padding: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .lovely-bases .w-32 {
+        width: calc(var(--spacing) * 22) !important;
+    }
+
+    div.flex.flex-col.gap-2 > div:nth-child(1) {
+        align-content: center;
+        .text-xs {
+            position: relative !important;
+            padding-left: 2.05vw !important;
+            left: 0px !important;
+        }
+    }
+}
+
+.bases-view[data-view-type="heatmap-calendar"] {
+    --bases-view-padding: 0;
+    --bases-embed-padding: 0;
+    text-transform: uppercase;
+}

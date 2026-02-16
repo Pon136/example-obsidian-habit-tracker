@@ -1,0 +1,12 @@
+{
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "CyanVoxel's General Tweaks",
+    "Daily Note Themes",
+    "Heatmap Tweaks"
+  ],
+  "cssTheme": "Vauxhall",
+  "interfaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "textFontFamily": "JetBrainsMono Nerd Font Mono",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono"
+}

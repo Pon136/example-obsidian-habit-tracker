@@ -1,0 +1,24 @@
+{
+  "pluginList": [
+    "aitorllj93/obsidian-lovely-bases"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "aitorllj93/obsidian-lovely-bases",
+      "version": ""
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "globalTokenName": "",
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": false,
+  "allowIncompatiblePlugins": false
+}

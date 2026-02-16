@@ -1,0 +1,46 @@
+/* CyanVoxel's General Tweaks */
+
+.theme-light,
+.theme-dark {
+    --link-decoration: none;
+}
+
+#calendar-container .title {
+    font-size: 18px;
+}
+
+.center-images img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.no-embed-border {
+    --embed-border-left: 0px solid black !important;
+}
+
+.no-embed-border .internal-embed {
+    border-inline-start-style: none;
+}
+
+.center-titles
+    :is(
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .HyperMD-header.HyperMD-header-1,
+        .HyperMD-header.HyperMD-header-2,
+        .HyperMD-header.HyperMD-header-3,
+        .HyperMD-header.HyperMD-header-4,
+        .HyperMD-header.HyperMD-header-5,
+        .HyperMD-header.HyperMD-header-6
+    ) {
+    text-align: center;
+}
+
+code {
+    font-family: "JetBrainsMono Nerd Font Mono", "JetBrains Mono", monospace;
+}

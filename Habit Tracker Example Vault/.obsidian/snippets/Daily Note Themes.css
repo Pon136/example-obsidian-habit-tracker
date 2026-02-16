@@ -1,0 +1,248 @@
+/*------------------------------------------------------------------------------
+                     Daily Note Themes by CyanVoxel v1.0.6
+
+These are a set of 7 main CSS classes that can be used to apply individual color
+schemes to daily notes for each day of the week.
+To customize the colors for each day, just swamp out the colors values under
+the main "day of the week" classes.
+
+NOTE: By default, this snippet relies on the "Bai Jamjuree" or
+"JetBrainsMono Nerd Font Mono" fonts. If you don't wish to use these, then just
+change or remove those font-family lines from this snippet.
+                
+------------------------------------------------------------------------------*/
+:root {
+    --highlight: #ffffff;
+    --primary: #aaaaaa;
+    --dark: #333333;
+}
+
+.daily {
+    --dark: var(--dark);
+    color: var(--highlight);
+    background-color: var(--dark);
+    --text-normal: var(--highlight);
+    --text-muted: var(--highlight);
+    --code-punctuation: var(--highlight);
+    --text-faint: var(--highlight);
+    --input-date-separator: --text-faint;
+    --collapse-icon-color: var(--highlight);
+
+    --checklist-done-color: var(--highlight);
+    --metadata-label-text-color: var(--highlight);
+    --metadata-input-text-color: var(--highlight);
+    --tag-color: var(--dark);
+    --tag-background: var(--primary);
+    --hr-color: var(--primary);
+    --blockquote-border-color: var(--primary);
+    --interactive-accent: var(--primary);
+    --collapse-icon-color-collapsed: var(--primary);
+    --checkbox-color: var(--primary);
+    --checkbox-marker-color: var(--dark);
+    --checkbox-color-hover: var(--highlight);
+    --checkbox-border-color: var(--highlight);
+    --list-marker-color: var(--highlight);
+    --code-background: black;
+    --code-normal: var(--primary);
+    --input-placeholder-color: color-mix(
+        in srgb,
+        var(--highlight) 60%,
+        transparent
+    );
+
+    --background-modifier-border-focus: var(--primary);
+    --background-modifier-border: color-mix(
+        in srgb,
+        var(--highlight) 60%,
+        transparent
+    );
+    --background-modifier-hover: color-mix(
+        in srgb,
+        var(--highlight) 60%,
+        transparent
+    );
+    --pill-cover-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+
+    /* Mirror the default box-shadow dimensions */
+    .metadata-property:focus-visible {
+        --metadata-property-box-shadow: color-mix(
+                in srgb,
+                var(--highlight) 60%,
+                transparent
+            )
+            0px 0px 0px 2px !important;
+    }
+    --metadata-property-box-shadow-hover: var(--highlight) 0px 0px 0px 1px;
+    --metadata-property-box-shadow-focus: var(--highlight) 0px 0px 0px 2px;
+}
+
+.cg-note-toolbar-container {
+    box-shadow: none;
+}
+
+.callout[data-callout="note-toolbar"] {
+    background-color: var(--dark) !important;
+    border-style: solid !important;
+    border-color: var(--primary) !important;
+    border-radius: 6px !important;
+}
+
+.callout[data-callout="note-toolbar"] svg {
+    color: var(--primary);
+}
+
+.sunday,
+.Sunday {
+    --highlight: #f39caa;
+    --primary: #f6466f;
+    --dark: #2d0916;
+}
+.monday,
+.Monday {
+    --highlight: #fcadaa;
+    --primary: #f65848;
+    --dark: #3c0e0b;
+}
+.tuesday,
+.Tuesday {
+    --highlight: #aedbfa;
+    --primary: #3b87f0;
+    --dark: #070615;
+}
+.wednesday,
+.Wednesday {
+    --highlight: #fff3c4;
+    --primary: #ffd63d;
+    --dark: #2c1404;
+}
+.thursday,
+.Thursday {
+    --highlight: #f7b79b;
+    --primary: #ed6022;
+    --dark: #210b04;
+}
+.friday,
+.Friday {
+    --highlight: #e9f9b7;
+    --primary: #92e649;
+    --dark: #192108;
+}
+.saturday,
+.Saturday {
+    --highlight: #f39caa;
+    --primary: #e22c3c;
+    --dark: #100305;
+}
+
+.daily :is(h1, .HyperMD-header.HyperMD-header-1) {
+    color: var(--primary);
+    text-align: center;
+    font-size: 60px;
+    font-family:
+        "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+    padding: 0 !important;
+}
+.daily :is(h2, .HyperMD-header.HyperMD-header-2) {
+    color: var(--highlight);
+    text-align: center;
+    font-size: 30px;
+    font-family:
+        "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+    font-style: italic;
+    padding: 0 !important;
+}
+.daily :is(h3, .HyperMD-header.HyperMD-header-3) {
+    color: var(--primary);
+    text-align: center;
+
+    font-size: 32px;
+    font-family:
+        "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+    padding-top: 0;
+}
+.daily :is(h4, .HyperMD-header.HyperMD-header-4) {
+    background-color: var(--primary);
+    color: var(--dark);
+    /* border-color: var(--primary); */
+    /* font-family: "JetBrainsMono Nerd Font Mono", "JetBrains Mono", monospace; */
+    font-weight: 900;
+    margin-bottom: 6px !important;
+    padding-top: 0;
+    font-size: 20px;
+    width: fit-content;
+    padding-left: 6px;
+    padding-right: 6px;
+    /* border: solid; */
+    border-radius: 8px;
+    /* border-width: 2px; */
+    word-wrap: normal;
+}
+.daily h4 .tag {
+    padding-top: 0px;
+    padding-bottom: 3px;
+    /* padding-right: 0px; */
+    font-size: 20px;
+}
+
+.daily :is(h5, .HyperMD-header.HyperMD-header-5) {
+    color: var(--primary);
+}
+.daily :is(h6, .HyperMD-header.HyperMD-header-6) {
+    color: var(--primary);
+}
+.daily p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.daily :is(a:link, .cm-hmd-internal-link):not(.tag) {
+    color: var(--primary);
+}
+
+.daily :is(a:hover, .cm-hmd-internal-link:hover) {
+    color: var(--highlight);
+}
+.daily hr {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.daily img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.theme-dark {
+    .daily {
+        --metadata-input-background-active: color-mix(
+            in srgb,
+            var(--primary) 10%,
+            black
+        );
+        --metadata-label-background-active: color-mix(
+            in srgb,
+            var(--primary) 10%,
+            black
+        );
+    }
+}
+
+:is(
+        .sunday,
+        .Sunday,
+        .monday,
+        .Monday,
+        .tuesday,
+        .Tuesday,
+        .wednesday,
+        .Wednesday,
+        .thursday,
+        .Thursday,
+        .friday,
+        .Friday,
+        .saturday,
+        .Saturday
+    )
+    svg {
+    color: color-mix(in srgb, var(--highlight) 60%, transparent);
+}
